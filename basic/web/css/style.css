@@ -1,0 +1,37 @@
+body{
+    background: #0000aa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form{
+    margin-top: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_label, .link{
+    color: LawnGreen;
+    font-size: 16pt;
+}
+.link:hover{
+    color: #000;
+}
+.search {
+    min-height: 20px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 274px;
+    vertical-align: middle;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.submit{
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.submit:hover {
+    background-color: LawnGreen;
+}
