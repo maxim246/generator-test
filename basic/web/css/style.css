@@ -11,7 +11,7 @@ form{
     flex-direction: column;
     align-items: center;
 }
-.form_label, .link{
+.form_label, .link, p{
     color: LawnGreen;
     font-size: 16pt;
 }
